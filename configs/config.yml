@@ -1,0 +1,17 @@
+port: "8000"
+
+db:
+  username: "postgres"
+  host: "localhost"
+  port: "5432"
+  dbname: "postgres"
+  sslmode: "disable"
+
+kafka:
+  brokers: "localhost:9092"
+  topic:  "chat-messages"
+  group_id: "chat-group"
+
+redis:
+  addr: "localhost:6379"
+  db: 0

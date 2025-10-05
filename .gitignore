@@ -1,0 +1,52 @@
+#Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+#Test binary, built with `go test -c`
+*.test
+
+#Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+#Dependency directories (remove the commit below ro include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+#IDE
+.idea/
+*.swp
+*.swo
+*~
+
+#Environment files
+.env
+.env.local
+
+#Docker
+Dockerfile
+
+#Logs
+*.log
+
+#Build artifacts
+/main
+/talk-together-app
+
+#Coverage
+covereage.html
+coverage.out
+
+#macOs
+.DS_Store
+*/**/DS_Store
+
+#Swagger generated docs
+docs/
+EOF
